@@ -60,7 +60,7 @@ h4{
     border-style: solid;
     border-radius: 8px;
     margin: 10px;
-    font-size: 35px;
+    font-size: 25px;
     min-width: 350px;
     padding: 6px;
     max-height: 85px;
@@ -77,6 +77,8 @@ h4{
 }
 .code-card {
     color: var(--color-light-bright);
+    display: flex;
+    flex-direction: column;
     user-select: all;
     font-size: 12px;
     font-weight: lighter;
